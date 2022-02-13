@@ -25,3 +25,8 @@ salario = float( input("Salario sem percentual de aumento: ") )
 
 aumento = salario * 0.2
 novoSalario = salario + aumento
+
+print('Salario: R$: ', salario)
+print('Valor do aumento: ', aumento)
+print('Novo salario: R$:' , novoSalario)
+print('O valor do aumento foi 20%')
