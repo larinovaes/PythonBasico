@@ -10,3 +10,5 @@ print('Quantida de dias digitados: ', dias)
 print('Quantidade de horas: ', horas)
 print('Quantida de minutos: ', minutos)
 print('Quantidade de segundos: ', segundos)
+
+# 2. Faça um programa que recebe o valor de um produto e um percentual de desconto e imprime a valor do desconto e o preço a pagar.
