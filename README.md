@@ -22,10 +22,15 @@ print('Quantidade de segundos: ', segundos)
 
 ``````
 valor = float( input("Valor original: R$ ") )
+desconto = float( input("Quanto deseja de desconto?"))
+
+total = valor * desconto
+comDesconto = total - desconto
+valorTotal = valor - comDesconto
 
 print('Valor sem desconto:     R$', valor)
-print('Desconto ganho:     R$', valor * 0.2)
-print('Valor com desconto: R$', valor * 0.8)
+print('Desconto ganho:     R$',total)
+print('Valor com desconto: R$', valorTotal)
 ``````
 
 3. Escreva um programa que recebe o valor de um salário e um percentual de aumento e imprime o valor do aumento e o novo salário.
@@ -33,11 +38,13 @@ print('Valor com desconto: R$', valor * 0.8)
 `````
 salario = float( input("Salario sem percentual de aumento: ") )
 
-aumento = salario * 0.2
-novoSalario = salario + aumento
+aumento = float( input("Aumento: ") )
+
+valor= salario * aumento
+novoSalario = salario + valor
 
 print('Salario: R$: ', salario)
-print('Valor do aumento: ', aumento)
+print('Valor do aumento: ', valor)
 print('Novo salario: R$:' , novoSalario)
-print('O valor do aumento foi 20%')
+print('O valor do aumento foi', valor)
 ``````
